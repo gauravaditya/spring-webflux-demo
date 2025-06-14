@@ -1,0 +1,9 @@
+services:
+  external-services:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: webflux-external-services:latest
+    container_name: external-services
+    ports:
+      - "7070:7070"
