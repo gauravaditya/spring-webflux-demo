@@ -16,7 +16,7 @@ class CustomerRepositoryTest extends AbstractTest {
     private static final Logger log = LoggerFactory.getLogger(CustomerRepositoryTest.class);
 
     @Autowired
-    CustomerRepository repository;
+    private CustomerRepository repository;
 
     @Test
     public void findAll() {

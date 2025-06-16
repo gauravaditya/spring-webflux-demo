@@ -8,7 +8,7 @@ import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 
-@Table("customers")
+@Table("customer")
 public class Customer {
 
     private static final Logger log = LoggerFactory.getLogger(Customer.class);
